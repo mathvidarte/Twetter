@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>semana11</title>
+    <link rel = "stylesheet" href= "index.css">
+</head>
+<body>
+    <h1>Beeb</h1>
+    <div id= "write">
+        
+        <input id ="texts" type = "text" placeholder="Escribe tu publicación">
+        <input id ="user" type = "text" placeholder="user">
+        <button id ="btnRegister"> Publicar </button>
+         
+    </div>
+
+    <h3 id ="tituloFeed">Feed news</h3>
+
+    <div id= "Contenedor"></div>
+    
+</body>
+</html>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+<script>
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyAId7C75OEoEGWvWy7IvfcPZ1zF4zNJjhQ",
+    authDomain: "twetter-4a631.firebaseapp.com",
+    databaseURL: "https://twetter-4a631.firebaseio.com",
+    projectId: "twetter-4a631",
+    storageBucket: "twetter-4a631.appspot.com",
+    messagingSenderId: "426046613732",
+    appId: "1:426046613732:web:c1346f9d68f1b146a424f1",
+    measurementId: "G-M5DEVVK6HD"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="components/Muro.js"></script>
+<script src="index.js"></script>
