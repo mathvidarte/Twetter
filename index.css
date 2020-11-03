@@ -1,3 +1,12 @@
+#theTitle {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: royalblue
+}
+
 #write{
     display: flex;
     margin: auto;
@@ -20,7 +29,6 @@
     width:  20em;
     padding: 0.8em;
     position: relative;
-
     border-radius: 0.5em;
 }
 .nameCont{
@@ -44,5 +52,5 @@
 }
 .responderbtn{
     color: floralwhite;
-    background-color: rgb(70, 19, 95);
+    background-color: cadetblue;
 }
